@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import random
 
 url = input('The URL > ')  # default is downloading an image ..
-name = random.randrange(1, 50) # give a random name to saved image 
+name = random.randrange(1, 50) # will change [TODO]
 
 def download():
     print('[/] just wait ..')
