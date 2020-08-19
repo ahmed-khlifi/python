@@ -6,3 +6,5 @@ rq = requests.get("https://www.instagram.com/khelifi_ahmed_/")
 soup = BeautifulSoup(rq.text, "html.parser")
 for l in soup.find_all('meta', {'property':'og:description'}):
     print(l['content'].split('-',1)[0])
+
+#output : 464 Followers, 103 Following, 5 Posts 
