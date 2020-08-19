@@ -2,9 +2,11 @@
 from bs4 import *
 import requests
 
-rq = requests.get("https://www.instagram.com/khelifi_ahmed_/")
+usr = input('username : ')
+URL = "https://www.instagram.com/{}/"
+rq = requests.get(URL.format(usr))
 soup = BeautifulSoup(rq.text, "html.parser")
 for l in soup.find_all('meta', {'property':'og:description'}):
     print(l['content'].split('-',1)[0])
 
-#output : 464 Followers, 103 Following, 5 Posts 
+#output : X Followers, X Following, X Posts 
