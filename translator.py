@@ -5,8 +5,8 @@ install googletrans:
 from googletrans import Translator
 
 def main():
-    text = input("Text :")
-    dest = input('language :')
+    text = input("Text : ")
+    dest = input('language : ')
     print(t(text, dest))
 
 def t(text , dest):
