@@ -1,6 +1,6 @@
 from googletrans import Translator
 from colorama import Fore
-from sys import exit
+
 
 def main():
     text = input(Fore.BLUE + "Translate your text :")
