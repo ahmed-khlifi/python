@@ -6,11 +6,7 @@ from googletrans import Translator
 
 def main():
     text = input("Text : ")
-<<<<<<< HEAD
-    dest = input('language :')
-=======
     dest = input('language : ')
->>>>>>> 16b73e2c944c4a111713c9de2bacc8e9a9a9230a
     print(t(text, dest))
 
 def t(text , dest):
