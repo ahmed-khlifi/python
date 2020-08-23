@@ -22,6 +22,7 @@ except FileNotFoundError:
 #change user name
 usr = "khelifi_ahmed_"
 URL = "https://www.instagram.com/{}/"
+print("listening ... ")
 while True:
 
 	rq = requests.get(URL.format(usr))
