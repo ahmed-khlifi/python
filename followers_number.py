@@ -1,4 +1,10 @@
-#very basic and simple just for study purposes
+'''
+For instagram
+it save the current follower, following and posts number
+when a change  occure you will know the updated status of th IG
+very basic and simple just for study purposes
+output : X Followers, X Following, X Posts 
+'''
 from bs4 import *
 import requests
 import sqlite3
@@ -32,9 +38,3 @@ while True:
 	    ''')
 	    w(info)
 	    break 
-
-
-
-
-
-#output : X Followers, X Following, X Posts 
